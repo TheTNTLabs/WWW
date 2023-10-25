@@ -1,6 +1,6 @@
 steps:
    deploy:
-    image: node:18
+    image: node
     commands:
     - npx wrangler pages deploy static-deployment --project-name=$CLOUDFLARE_PAGES_PROJECT_NAME
     secrets:
