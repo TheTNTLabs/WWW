@@ -1,5 +1,5 @@
 steps:
-   deploy:
+  deploy:
     image: node
     commands:
     - npx wrangler pages deploy static-deployment --project-name=$CLOUDFLARE_PAGES_PROJECT_NAME
