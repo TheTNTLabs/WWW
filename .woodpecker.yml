@@ -1,9 +1,9 @@
 steps:
-  deploy:
+  - name: deploy
     image: node
     commands:
-    - npx wrangler pages deploy static-deployment --project-name=$CLOUDFLARE_PAGES_PROJECT_NAME
+      - npx wrangler pages deploy static-deployment --project-name=$CLOUDFLARE_PAGES_PROJECT_NAME
     secrets:
-    - cloudflare_account_id
-    - cloudflare_api_token
-    - cloudflare_pages_project_name
+      - cloudflare_account_id
+      - cloudflare_api_token
+      - cloudflare_pages_project_name
