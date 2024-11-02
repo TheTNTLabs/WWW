@@ -1,5 +1,7 @@
-The MIT License (MIT)
-=====================
+License
+=======
+
+## [Code & Documentation] MIT License (MIT)
 
 Copyright © `2023` `TheTNTLabs Gaming`
 
