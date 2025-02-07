@@ -4,5 +4,9 @@
 [![license-badge](https://img.shields.io/badge/license-MIT-blue)](https://codeberg.org/TheTNTLabs/WWW/src/branch/main/LICENSE.md)
 [![chat-badge](https://img.shields.io/badge/chat-on_Zulip-blue)](https://thetntlabs.zulipchat.com/)
 
-## Serve static files locally
-`python3 -m http.server -d static-deployment/`
+## Setup
+
+### Serve static files locally
+```bash
+python3 -m http.server -d static-deployment/
+```
