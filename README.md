@@ -8,7 +8,7 @@
 
 ## Setup
 
-### Serve static files locally
+### Preview the site
 ```bash
 python3 -m http.server -d static-deployment/
 ```
